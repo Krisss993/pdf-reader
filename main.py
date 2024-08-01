@@ -20,7 +20,7 @@ app.include_router(todos.router)
 origins = [
    "http://localhost:3000",
    "https://llm-app-front.vercel.app/",
-   "pdf-reader-front-jade.vercel.app",
+   "https://pdf-reader-front.vercel.app/",
    
 ]
 
