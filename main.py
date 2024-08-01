@@ -17,12 +17,7 @@ app = FastAPI()
 app.include_router(todos.router)
 
 
-origins = [
-   "http://localhost:3000",
-   "https://llm-app-front.vercel.app/",
-   "https://pdf-reader-front.vercel.app/",
-   
-]
+origins = ["*"]
 
 # CORS configuration, needed for frontend development
 app.add_middleware(
